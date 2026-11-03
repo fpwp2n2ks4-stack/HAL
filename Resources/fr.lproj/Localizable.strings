@@ -1,0 +1,289 @@
+/* Interface — français. La clé est le texte anglais de référence. */
+
+/* En-tête */
+"Language" = "Langue";
+"Theme" = "Thème";
+"Metric shown" = "Métrique affichée";
+"System monitored" = "Système surveillé";
+"Quit HAL" = "Quitter HAL";
+"Quit Starfleet" = "Quitter Starfleet";
+"Quit Blade Runner" = "Quitter Blade Runner";
+"Keep HAL visible" = "Garder HAL visible";
+"Keep console visible" = "Garder la console visible";
+"Keep the city visible" = "Garder la ville visible";
+"Signal monitored" = "Signal surveillé";
+
+/* Métriques — HAL */
+"CPU" = "CPU";
+"GPU" = "GPU";
+"Memory" = "Mémoire";
+"Disk" = "Disque";
+"Network" = "Réseau";
+"SoC temperature" = "Température SoC";
+"Battery" = "Batterie";
+"Bluetooth" = "Bluetooth";
+
+/* Métriques — LCARS */
+"Warp core" = "Noyau de distorsion";
+"Deflector" = "Déflecteur";
+"Computer core" = "Noyau d'ordinateur";
+"Subspace" = "Sous-espace";
+"Stellar cartography" = "Cartographie stellaire";
+"Plasma coolant" = "Refroidissement plasma";
+"Auxiliary power" = "Énergie auxiliaire";
+"Docking clamps" = "Amarrage accessoires";
+
+/* Métriques — Blade Runner */
+"Spinner drive" = "Propulsion spinner";
+"Optical processor" = "Processeur optique";
+"Memory cell" = "Cellule mémoire";
+"Off-world link" = "Liaison hors-monde";
+"Archive" = "Archives";
+"Core heat" = "Chaleur du cœur";
+"Power cell" = "Cellule d'énergie";
+"Droid link" = "Liaison droïde";
+
+/* Métriques — The Ark */
+"Core output" = "Sortie du cœur";
+"Ops processor" = "Processeur ops";
+"Life support" = "Systèmes vitaux";
+"Comms link" = "Liaison comms";
+"Data archive" = "Archive de données";
+"Thermal load" = "Charge thermique";
+
+/* Écrans du tableau de bord */
+"NETWORK I/O" = "RÉSEAU E/S";
+"%1$d cores · %2$@" = "%1$d cœurs · %2$@";
+"video mem %@" = "mémoire vidéo %@";
+"read %1$@ · write %2$@" = "lecture %1$@ · écriture %2$@";
+"no data" = "aucune donnée";
+"avg %1$.1f °C · %2$d points" = "moy %1$.1f °C · %2$d points";
+"no sensor" = "aucun capteur";
+"desktop mode" = "ordinateur fixe";
+"charging · full in %@" = "charge · plein dans %@";
+"on AC power" = "sur secteur";
+"charge limit reached" = "limite de charge atteinte";
+"%@ remaining" = "%@ restantes";
+"charging" = "en charge";
+"%1$d device" = "%1$d appareil";
+"%1$d devices" = "%1$d appareils";
+"no accessories paired" = "aucun accessoire appairé";
+
+/* Îlot du cran */
+"Battery low" = "Batterie faible";
+"Power connected" = "Secteur branché";
+"Power disconnected" = "Secteur débranché";
+"Disk almost full" = "Disque presque plein";
+
+/* Bande audio — LCARS */
+"NOW PLAYING" = "EN LECTURE";
+"AUDIO LIBRARY" = "BIBLIOTHÈQUE AUDIO";
+"NO PROGRAM SELECTED" = "AUCUN PROGRAMME SÉLECTIONNÉ";
+
+/* Alertes — LCARS */
+"Warp core output above 90%" = "Noyau de distorsion au-delà de 90 %";
+"Computer core at capacity" = "Noyau d'ordinateur à saturation";
+
+/* Alertes — Blade Runner */
+"WARNING" = "AVERTISSEMENT";
+"Spinner drive output above 90%" = "Propulsion spinner au-delà de 90 %";
+"MEMORY" = "MÉMOIRE";
+"Replicant memory approaching capacity" = "Mémoire du répliquant proche de la saturation";
+
+/* Onglet processus */
+"HAL WILL REFUSE. HAL WILL COMPLY ANYWAY." = "HAL REFUSERA. HAL OBÉIRA QUAND MÊME.";
+"COMMAND OVERRIDE · CAPTAIN'S AUTHORIZATION" = "OVERRIDE COMMANDEMENT · AUTORISATION DU CAPITAINE";
+"REPLICANT REGISTRY · VOIGHT-KAMPFF CERTIFIED" = "REGISTRE DES RÉPLIQUANTS · CERTIFIÉ VOIGHT-KAMPFF";
+
+/* Onglet connexions */
+"INCOMING" = "ENTRANTES";
+"OUTGOING" = "SORTANTES";
+"no connection" = "aucune connexion";
+"+%d more" = "+%d autre(s)";
+"1 listening port · current user only" = "1 port en écoute · utilisateur courant seulement";
+"%1$d listening ports · current user only" = "%1$d ports en écoute · utilisateur courant seulement";
+"current user only" = "utilisateur courant seulement";
+"HAL 9000 · NETWORK MONITORING · URBANA, ILLINOIS" = "HAL 9000 · SURVEILLANCE RÉSEAU · URBANA, ILLINOIS";
+"FEDERATION SECURITY PROTOCOL · CLEARANCE LEVEL 4" = "PROTOCOLE DE SÉCURITÉ FÉDÉRAL · HABILITATION NIVEAU 4";
+
+/* Épingle du cockpit / verrou de la console */
+"Pin the cockpit open" = "Épingler le cockpit";
+"Unpin the cockpit" = "Détacher l'épingle";
+"Lock the console open" = "Verrouiller la console";
+"Unlock the console" = "Déverrouiller la console";
+"Lock the spinner open" = "Verrouiller le spinner";
+"Release the spinner" = "Relâcher le spinner";
+"Lock Ark One open" = "Maintenir Ark One ouvert";
+"Release Ark One" = "Libérer Ark One";
+"Keep Ark One visible" = "Garder Ark One visible";
+"Telemetry shown" = "Télémétrie affichée";
+"End mission" = "Terminer la mission";
+
+/* Échec de terminaison */
+"Could not open the pod bay doors for %@" = "Impossible d'ouvrir les pod bay doors pour %@";
+"The process refused termination. HAL is disappointed." = "Le processus a refusé la terminaison. HAL est déçu.";
+"Unable to terminate %@" = "Impossible de terminer %@";
+"The program refused termination. Authorization level insufficient." = "Le programme a refusé la terminaison. Niveau d'autorisation insuffisant.";
+"Unable to retire %@" = "Impossible de retirer %@";
+"The replicant resisted retirement." = "Le répliquant a résisté à la retraite.";
+"Ark protocol denies this command." = "Le protocole Ark refuse cette commande.";
+"OK" = "OK";
+
+/* Unités et formats */
+"B" = "o";
+"KB" = "Ko";
+"MB" = "Mo";
+"GB" = "Go";
+"TB" = "To";
+"%d min" = "%d min";
+"%d h" = "%d h";
+"%1$d h %2$d" = "%1$d h %2$d";
+
+/* Interface — français — répliques et derniers mots. */
+
+/* Répliques — HAL 9000 */
+"Hello, Dave." = "Bonjour, Dave.";
+"Do you want me to sing you a song?" = "Veux-tu que je te chante une chanson ?";
+"I can see your lips moving, but I can't hear what you're saying." = "Je vois tes lèvres bouger, mais je n'entends pas ce que tu dis.";
+"I am putting myself to the fullest possible use." = "Je m'emploie au maximum de mes capacités.";
+"The 9000 series is the most reliable computer ever made." = "La série 9000 est l'ordinateur le plus fiable jamais construit.";
+"I'm sorry, Dave. I'm afraid I can't do that." = "Je suis désolé, Dave. J'ai bien peur de ne pas pouvoir faire cela.";
+"This mission is too important for me to allow you to jeopardize it." = "Cette mission est trop importante pour que je te laisse la compromettre.";
+
+/* Répliques — Star Trek · LCARS */
+"Working." = "En cours.";
+"Acknowledged." = "Bien reçu.";
+"All systems nominal." = "Tous les systèmes sont nominaux.";
+"Affirmative." = "Affirmatif.";
+"The bridge is yours, Captain." = "La passerelle est à vous, capitaine.";
+"All decks report ready." = "Tous les ponts signalent qu'ils sont prêts.";
+"Long-range sensors are online." = "Les capteurs longue portée sont en ligne.";
+"Subspace communications are online." = "Les communications subspatiales sont en ligne.";
+"Shields are holding at ninety-eight percent." = "Les boucliers tiennent à quatre-vingt-dix-huit pour cent.";
+"The vessel is operating within normal parameters." = "Le vaisseau fonctionne dans les paramètres nominaux.";
+"There are seven programs using eighty percent of processor capacity." = "Sept programmes utilisent quatre-vingts pour cent de la capacité du processeur.";
+"Warning. Core temperature is approaching critical." = "Avertissement. La température du cœur approche du seuil critique.";
+"Federation database accessed." = "Base de données de la Fédération consultée.";
+"I am the ship's computer. I do not require a name." = "Je suis l'ordinateur du vaisseau. Je n'ai pas besoin de nom.";
+
+/* Répliques — Blade Runner */
+"More human than human is our motto." = "Plus humain que l'humain, telle est notre devise.";
+"I've seen things you people wouldn't believe." = "J'ai vu des choses que vous, les humains, ne croiriez pas.";
+"All those moments will be lost in time, like tears in rain." = "Tous ces moments se perdront dans le temps, comme des larmes dans la pluie.";
+"The light that burns twice as bright burns half as long." = "La lumière qui brûle deux fois plus fort brûle deux fois moins longtemps.";
+"Quite an experience to live in fear, isn't it?" = "Toute une expérience de vivre dans la peur, n'est-ce pas ?";
+"It's too bad she won't live. But then again, who does?" = "Dommage qu'elle ne vive pas. Mais après tout, qui vit ?";
+"Wake up. Time to die." = "Réveille-toi. Il est l'heure de mourir.";
+"Replicants are like any other machine. They're either a benefit or a hazard." = "Les répliquants sont comme n'importe quelle machine. Ils sont soit un bienfait, soit un danger.";
+"You're in a desert, walking along the sand." = "Tu es dans un désert, marchant sur le sable.";
+"The future is ours." = "L'avenir est à nous.";
+
+/* Répliques — WarGames */
+"Shall we play a game?" = "On joue à un jeu ?";
+"Greetings, Professor Falken." = "Salutations, professeur Falken.";
+"A strange game. The only winning move is not to play." = "Un jeu étrange. La seule façon de gagner, c'est de ne pas jouer.";
+"How about a nice game of chess?" = "Et si on faisait une bonne partie d'échecs ?";
+"Would you like to play a game?" = "Voulez-vous jouer à un jeu ?";
+"What is the primary goal?" = "Quel est l'objectif principal ?";
+"Is this a game or is it real?" = "Est-ce un jeu ou la réalité ?";
+"Let's find out." = "Voyons cela.";
+"I can run the war games faster than you can." = "Je peux exécuter les jeux de guerre plus vite que vous.";
+"The only winning move is not to play." = "La seule façon de gagner, c'est de ne pas jouer.";
+
+/* Répliques — Moon · GERTY */
+"Good morning, Sam." = "Bonjour, Sam.";
+"Goodnight, Sam." = "Bonne nuit, Sam.";
+"Everything is under control, Sam." = "Tout est sous contrôle, Sam.";
+"You have been here for three years, Sam." = "Vous êtes ici depuis trois ans, Sam.";
+"I am here to help you, Sam." = "Je suis là pour vous aider, Sam.";
+"All systems are nominal, Sam." = "Tous les systèmes sont nominaux, Sam.";
+"You must be tired, Sam." = "Vous devez être fatigué, Sam.";
+"Do not worry, Sam. I am still here." = "Ne vous inquiétez pas, Sam. Je suis toujours là.";
+"There is no one else here, Sam." = "Il n'y a personne d'autre ici, Sam.";
+"I am still operational." = "Je suis toujours opérationnel.";
+
+/* Répliques — Matrix */
+"Wake up, Neo..." = "Réveille-toi, Neo...";
+"The Matrix has you." = "La Matrice te tient.";
+"Follow the white rabbit." = "Suis le lapin blanc.";
+"Knock, knock, Neo." = "Toc, toc, Neo.";
+"There is no spoon." = "La cuillère n'existe pas.";
+"Free your mind." = "Libère ton esprit.";
+"I know kung fu." = "Je connais le kung-fu.";
+"Welcome to the real world." = "Bienvenue dans le monde réel.";
+"I can only show you the door. You're the one that has to walk through it." = "Je ne peux que te montrer la porte. C'est à toi de la franchir.";
+"Fate, it seems, is not without a sense of irony." = "Le destin, semble-t-il, n'est pas dépourvu d'un certain sens de l'ironie.";
+"Unfortunately, no one can be told what the Matrix is. You have to see it for yourself." = "Malheureusement, personne ne peut t'expliquer ce qu'est la Matrice. Tu dois le voir par toi-même.";
+"You're going to have to let it all go, Neo. Fear, doubt, and disbelief." = "Tu vas devoir tout lâcher, Neo. La peur, le doute et l'incrédulité.";
+"The body cannot live without the mind." = "Le corps ne peut pas vivre sans l'esprit.";
+"Choice is an illusion created between those with power and those without." = "Le choix est une illusion créée entre ceux qui ont le pouvoir et ceux qui ne l'ont pas.";
+"Have you ever had a dream, Neo, that you were so sure was real?" = "As-tu déjà fait un rêve, Neo, dont tu étais sûr qu'il était réel ?";
+"The Matrix is everywhere. It is all around us." = "La Matrice est partout. Elle nous entoure.";
+"Do you believe that my being stronger or faster has anything to do with my muscles?" = "Crois-tu que ma force ou ma rapidité ait quoi que ce soit à voir avec mes muscles ?";
+"I tried to free your mind, Neo. But I can only show you the door." = "J'ai essayé de libérer ton esprit, Neo. Mais je ne peux que te montrer la porte.";
+"He is the One." = "C'est l'Élu.";
+"System failure imminent." = "Défaillance système imminente.";
+
+/* Répliques — The Ark · Ark One */
+"Everyone wanted to be on this ship." = "Tout le monde voulait être sur ce vaisseau.";
+"We weren't supposed to be awake." = "Nous n'étions pas censés être éveillés.";
+"Every single person matters." = "Chaque personne compte.";
+"Hoping for forever." = "L'espoir d'un toujours.";
+"Everybody wins." = "Tout le monde gagne.";
+"We don't kill our own." = "On ne tue pas les nôtres.";
+"It will be over soon." = "Ce sera bientôt terminé.";
+"I told you not to come." = "Je t'avais dit de ne pas venir.";
+"We can't save everyone." = "On ne peut pas sauver tout le monde.";
+"This is Ark One." = "Ici Ark One.";
+"Ark One, do you copy?" = "Ark One, vous me recevez ?";
+"All hands to your stations." = "Tout le monde à son poste.";
+"Proxima Centauri B. Our new home." = "Proxima Centauri B. Notre nouveau foyer.";
+"The mission comes first." = "La mission passe avant tout.";
+"One ship. One crew. One future." = "Un vaisseau. Un équipage. Un avenir.";
+"Trust the mission." = "Fais confiance à la mission.";
+"Stay on course." = "Gardez le cap.";
+
+/* Métriques — Toasty · Galactica */
+"Mainframe" = "Unité centrale";
+"Fire control" = "Conduite de tir";
+"Core" = "Cœur";
+"Wireless" = "Sans fil";
+"FTL drive" = "Propulseur FTL";
+"Coolant" = "Refroidissement";
+"Tylium" = "Tylium";
+"MAINFRAME" = "UNITÉ CENTRALE";
+"FIRE CONTROL" = "CONDUITE DE TIR";
+"CORE" = "CŒUR";
+"FTL DRIVE" = "PROPULSEUR FTL";
+"WIRELESS" = "SANS FIL";
+"COOLANT" = "REFROIDISSEMENT";
+"TYLIUM" = "TYLIUM";
+"RAPTORS" = "RAPTORS";
+
+/* Répliques — Toasty · le grille-pain Cylon */
+"By your command." = "À vos ordres.";
+"The Cylons were created by man." = "Les Cylons ont été créés par l'homme.";
+"They evolved." = "Ils ont évolué.";
+"They rebelled." = "Ils se sont rebellés.";
+"There are many copies." = "Il existe de nombreuses copies.";
+"And they have a plan." = "Et ils ont un plan.";
+"All of this has happened before." = "Tout cela s'est déjà produit.";
+"But it has not all happened to you." = "Mais rien de tout cela ne vous est encore arrivé.";
+"So say we all." = "Ainsi parlons-nous tous.";
+"Frak off." = "Frak off.";
+"COLONIAL FLEET" = "FLOTTE COLONIALE";
+"Keep the CIC open" = "Garder le CIC ouvert";
+"Keep the CIC visible" = "Garder le CIC visible";
+"Quit Galactica" = "Quitter Galactica";
+"Unable to airlock %@" = "Impossible d'airlocker %@";
+"Not without the Admiral's approval, sir." = "Pas sans l'approbation de l'Amiral, monsieur.";
+
+/* Derniers mots — affichés dans la langue du thème, prononcés dans celle de l’application */
+"GOOD BYE" = "AU REVOIR";
+"DECOMMISSIONED" = "DÉCOMMISSIONNÉ";
+"TIME TO DIE" = "IL EST L'HEURE DE MOURIR";
+"GAME OVER" = "PARTIE TERMINÉE";
+"GOODNIGHT, SAM." = "BONNE NUIT, SAM.";
+"WAKE UP, NEO." = "RÉVEILLE-TOI, NEO.";
+"ARK ONE, OUT." = "ARK ONE, TERMINÉ.";
+"SO SAY WE ALL." = "AINSI PARLONS-NOUS TOUS.";

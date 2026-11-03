@@ -1,0 +1,289 @@
+/* Interface — langue de base (anglais). Les clés sont identiques aux valeurs. */
+
+/* En-tête */
+"Language" = "Language";
+"Theme" = "Theme";
+"Metric shown" = "Metric shown";
+"System monitored" = "System monitored";
+"Quit HAL" = "Quit HAL";
+"Quit Starfleet" = "Quit Starfleet";
+"Quit Blade Runner" = "Quit Blade Runner";
+"Keep HAL visible" = "Keep HAL visible";
+"Keep console visible" = "Keep console visible";
+"Keep the city visible" = "Keep the city visible";
+"Signal monitored" = "Signal monitored";
+
+/* Métriques — HAL */
+"CPU" = "CPU";
+"GPU" = "GPU";
+"Memory" = "Memory";
+"Disk" = "Disk";
+"Network" = "Network";
+"SoC temperature" = "SoC temperature";
+"Battery" = "Battery";
+"Bluetooth" = "Bluetooth";
+
+/* Métriques — LCARS */
+"Warp core" = "Warp core";
+"Deflector" = "Deflector";
+"Computer core" = "Computer core";
+"Subspace" = "Subspace";
+"Stellar cartography" = "Stellar cartography";
+"Plasma coolant" = "Plasma coolant";
+"Auxiliary power" = "Auxiliary power";
+"Docking clamps" = "Docking clamps";
+
+/* Métriques — Blade Runner */
+"Spinner drive" = "Spinner drive";
+"Optical processor" = "Optical processor";
+"Memory cell" = "Memory cell";
+"Off-world link" = "Off-world link";
+"Archive" = "Archive";
+"Core heat" = "Core heat";
+"Power cell" = "Power cell";
+"Droid link" = "Droid link";
+
+/* Métriques — The Ark */
+"Core output" = "Core output";
+"Ops processor" = "Ops processor";
+"Life support" = "Life support";
+"Comms link" = "Comms link";
+"Data archive" = "Data archive";
+"Thermal load" = "Thermal load";
+
+/* Écrans du tableau de bord */
+"NETWORK I/O" = "NETWORK I/O";
+"%1$d cores · %2$@" = "%1$d cores · %2$@";
+"video mem %@" = "video mem %@";
+"read %1$@ · write %2$@" = "read %1$@ · write %2$@";
+"no data" = "no data";
+"avg %1$.1f °C · %2$d points" = "avg %1$.1f °C · %2$d points";
+"no sensor" = "no sensor";
+"desktop mode" = "desktop mode";
+"charging · full in %@" = "charging · full in %@";
+"on AC power" = "on AC power";
+"charge limit reached" = "charge limit reached";
+"%@ remaining" = "%@ remaining";
+"charging" = "charging";
+"%1$d device" = "%1$d device";
+"%1$d devices" = "%1$d devices";
+"no accessories paired" = "no accessories paired";
+
+/* Îlot du cran */
+"Battery low" = "Battery low";
+"Power connected" = "Power connected";
+"Power disconnected" = "Power disconnected";
+"Disk almost full" = "Disk almost full";
+
+/* Bande audio — LCARS */
+"NOW PLAYING" = "NOW PLAYING";
+"AUDIO LIBRARY" = "AUDIO LIBRARY";
+"NO PROGRAM SELECTED" = "NO PROGRAM SELECTED";
+
+/* Alertes — LCARS */
+"Warp core output above 90%" = "Warp core output above 90%";
+"Computer core at capacity" = "Computer core at capacity";
+
+/* Alertes — Blade Runner */
+"WARNING" = "WARNING";
+"Spinner drive output above 90%" = "Spinner drive output above 90%";
+"MEMORY" = "MEMORY";
+"Replicant memory approaching capacity" = "Replicant memory approaching capacity";
+
+/* Onglet processus */
+"HAL WILL REFUSE. HAL WILL COMPLY ANYWAY." = "HAL WILL REFUSE. HAL WILL COMPLY ANYWAY.";
+"COMMAND OVERRIDE · CAPTAIN'S AUTHORIZATION" = "COMMAND OVERRIDE · CAPTAIN'S AUTHORIZATION";
+"REPLICANT REGISTRY · VOIGHT-KAMPFF CERTIFIED" = "REPLICANT REGISTRY · VOIGHT-KAMPFF CERTIFIED";
+
+/* Onglet connexions */
+"INCOMING" = "INCOMING";
+"OUTGOING" = "OUTGOING";
+"no connection" = "no connection";
+"+%d more" = "+%d more";
+"1 listening port · current user only" = "1 listening port · current user only";
+"%1$d listening ports · current user only" = "%1$d listening ports · current user only";
+"current user only" = "current user only";
+"HAL 9000 · NETWORK MONITORING · URBANA, ILLINOIS" = "HAL 9000 · NETWORK MONITORING · URBANA, ILLINOIS";
+"FEDERATION SECURITY PROTOCOL · CLEARANCE LEVEL 4" = "FEDERATION SECURITY PROTOCOL · CLEARANCE LEVEL 4";
+
+/* Épingle du cockpit / verrou de la console */
+"Pin the cockpit open" = "Pin the cockpit open";
+"Unpin the cockpit" = "Unpin the cockpit";
+"Lock the console open" = "Lock the console open";
+"Unlock the console" = "Unlock the console";
+"Lock the spinner open" = "Lock the spinner open";
+"Release the spinner" = "Release the spinner";
+"Lock Ark One open" = "Lock Ark One open";
+"Release Ark One" = "Release Ark One";
+"Keep Ark One visible" = "Keep Ark One visible";
+"Telemetry shown" = "Telemetry shown";
+"End mission" = "End mission";
+
+/* Échec de terminaison */
+"Could not open the pod bay doors for %@" = "Could not open the pod bay doors for %@";
+"The process refused termination. HAL is disappointed." = "The process refused termination. HAL is disappointed.";
+"Unable to terminate %@" = "Unable to terminate %@";
+"The program refused termination. Authorization level insufficient." = "The program refused termination. Authorization level insufficient.";
+"Unable to retire %@" = "Unable to retire %@";
+"The replicant resisted retirement." = "The replicant resisted retirement.";
+"Ark protocol denies this command." = "Ark protocol denies this command.";
+"OK" = "OK";
+
+/* Unités et formats */
+"B" = "B";
+"KB" = "KB";
+"MB" = "MB";
+"GB" = "GB";
+"TB" = "TB";
+"%d min" = "%d min";
+"%d h" = "%d h";
+"%1$d h %2$d" = "%1$d h %2$d";
+
+/* Interface — langue de base (anglais) — répliques et derniers mots. */
+
+/* Répliques — HAL 9000 */
+"Hello, Dave." = "Hello, Dave.";
+"Do you want me to sing you a song?" = "Do you want me to sing you a song?";
+"I can see your lips moving, but I can't hear what you're saying." = "I can see your lips moving, but I can't hear what you're saying.";
+"I am putting myself to the fullest possible use." = "I am putting myself to the fullest possible use.";
+"The 9000 series is the most reliable computer ever made." = "The 9000 series is the most reliable computer ever made.";
+"I'm sorry, Dave. I'm afraid I can't do that." = "I'm sorry, Dave. I'm afraid I can't do that.";
+"This mission is too important for me to allow you to jeopardize it." = "This mission is too important for me to allow you to jeopardize it.";
+
+/* Répliques — Star Trek · LCARS */
+"Working." = "Working.";
+"Acknowledged." = "Acknowledged.";
+"All systems nominal." = "All systems nominal.";
+"Affirmative." = "Affirmative.";
+"The bridge is yours, Captain." = "The bridge is yours, Captain.";
+"All decks report ready." = "All decks report ready.";
+"Long-range sensors are online." = "Long-range sensors are online.";
+"Subspace communications are online." = "Subspace communications are online.";
+"Shields are holding at ninety-eight percent." = "Shields are holding at ninety-eight percent.";
+"The vessel is operating within normal parameters." = "The vessel is operating within normal parameters.";
+"There are seven programs using eighty percent of processor capacity." = "There are seven programs using eighty percent of processor capacity.";
+"Warning. Core temperature is approaching critical." = "Warning. Core temperature is approaching critical.";
+"Federation database accessed." = "Federation database accessed.";
+"I am the ship's computer. I do not require a name." = "I am the ship's computer. I do not require a name.";
+
+/* Répliques — Blade Runner */
+"More human than human is our motto." = "More human than human is our motto.";
+"I've seen things you people wouldn't believe." = "I've seen things you people wouldn't believe.";
+"All those moments will be lost in time, like tears in rain." = "All those moments will be lost in time, like tears in rain.";
+"The light that burns twice as bright burns half as long." = "The light that burns twice as bright burns half as long.";
+"Quite an experience to live in fear, isn't it?" = "Quite an experience to live in fear, isn't it?";
+"It's too bad she won't live. But then again, who does?" = "It's too bad she won't live. But then again, who does?";
+"Wake up. Time to die." = "Wake up. Time to die.";
+"Replicants are like any other machine. They're either a benefit or a hazard." = "Replicants are like any other machine. They're either a benefit or a hazard.";
+"You're in a desert, walking along the sand." = "You're in a desert, walking along the sand.";
+"The future is ours." = "The future is ours.";
+
+/* Répliques — WarGames */
+"Shall we play a game?" = "Shall we play a game?";
+"Greetings, Professor Falken." = "Greetings, Professor Falken.";
+"A strange game. The only winning move is not to play." = "A strange game. The only winning move is not to play.";
+"How about a nice game of chess?" = "How about a nice game of chess?";
+"Would you like to play a game?" = "Would you like to play a game?";
+"What is the primary goal?" = "What is the primary goal?";
+"Is this a game or is it real?" = "Is this a game or is it real?";
+"Let's find out." = "Let's find out.";
+"I can run the war games faster than you can." = "I can run the war games faster than you can.";
+"The only winning move is not to play." = "The only winning move is not to play.";
+
+/* Répliques — Moon · GERTY */
+"Good morning, Sam." = "Good morning, Sam.";
+"Goodnight, Sam." = "Goodnight, Sam.";
+"Everything is under control, Sam." = "Everything is under control, Sam.";
+"You have been here for three years, Sam." = "You have been here for three years, Sam.";
+"I am here to help you, Sam." = "I am here to help you, Sam.";
+"All systems are nominal, Sam." = "All systems are nominal, Sam.";
+"You must be tired, Sam." = "You must be tired, Sam.";
+"Do not worry, Sam. I am still here." = "Do not worry, Sam. I am still here.";
+"There is no one else here, Sam." = "There is no one else here, Sam.";
+"I am still operational." = "I am still operational.";
+
+/* Répliques — Matrix */
+"Wake up, Neo..." = "Wake up, Neo...";
+"The Matrix has you." = "The Matrix has you.";
+"Follow the white rabbit." = "Follow the white rabbit.";
+"Knock, knock, Neo." = "Knock, knock, Neo.";
+"There is no spoon." = "There is no spoon.";
+"Free your mind." = "Free your mind.";
+"I know kung fu." = "I know kung fu.";
+"Welcome to the real world." = "Welcome to the real world.";
+"I can only show you the door. You're the one that has to walk through it." = "I can only show you the door. You're the one that has to walk through it.";
+"Fate, it seems, is not without a sense of irony." = "Fate, it seems, is not without a sense of irony.";
+"Unfortunately, no one can be told what the Matrix is. You have to see it for yourself." = "Unfortunately, no one can be told what the Matrix is. You have to see it for yourself.";
+"You're going to have to let it all go, Neo. Fear, doubt, and disbelief." = "You're going to have to let it all go, Neo. Fear, doubt, and disbelief.";
+"The body cannot live without the mind." = "The body cannot live without the mind.";
+"Choice is an illusion created between those with power and those without." = "Choice is an illusion created between those with power and those without.";
+"Have you ever had a dream, Neo, that you were so sure was real?" = "Have you ever had a dream, Neo, that you were so sure was real?";
+"The Matrix is everywhere. It is all around us." = "The Matrix is everywhere. It is all around us.";
+"Do you believe that my being stronger or faster has anything to do with my muscles?" = "Do you believe that my being stronger or faster has anything to do with my muscles?";
+"I tried to free your mind, Neo. But I can only show you the door." = "I tried to free your mind, Neo. But I can only show you the door.";
+"He is the One." = "He is the One.";
+"System failure imminent." = "System failure imminent.";
+
+/* Répliques — The Ark · Ark One */
+"Everyone wanted to be on this ship." = "Everyone wanted to be on this ship.";
+"We weren't supposed to be awake." = "We weren't supposed to be awake.";
+"Every single person matters." = "Every single person matters.";
+"Hoping for forever." = "Hoping for forever.";
+"Everybody wins." = "Everybody wins.";
+"We don't kill our own." = "We don't kill our own.";
+"It will be over soon." = "It will be over soon.";
+"I told you not to come." = "I told you not to come.";
+"We can't save everyone." = "We can't save everyone.";
+"This is Ark One." = "This is Ark One.";
+"Ark One, do you copy?" = "Ark One, do you copy?";
+"All hands to your stations." = "All hands to your stations.";
+"Proxima Centauri B. Our new home." = "Proxima Centauri B. Our new home.";
+"The mission comes first." = "The mission comes first.";
+"One ship. One crew. One future." = "One ship. One crew. One future.";
+"Trust the mission." = "Trust the mission.";
+"Stay on course." = "Stay on course.";
+
+/* Metrics — Toasty · Galactica */
+"Mainframe" = "Mainframe";
+"Fire control" = "Fire control";
+"Core" = "Core";
+"Wireless" = "Wireless";
+"FTL drive" = "FTL drive";
+"Coolant" = "Coolant";
+"Tylium" = "Tylium";
+"MAINFRAME" = "MAINFRAME";
+"FIRE CONTROL" = "FIRE CONTROL";
+"CORE" = "CORE";
+"FTL DRIVE" = "FTL DRIVE";
+"WIRELESS" = "WIRELESS";
+"COOLANT" = "COOLANT";
+"TYLIUM" = "TYLIUM";
+"RAPTORS" = "RAPTORS";
+
+/* Whispers — Toasty · the Cylon toaster */
+"By your command." = "By your command.";
+"The Cylons were created by man." = "The Cylons were created by man.";
+"They evolved." = "They evolved.";
+"They rebelled." = "They rebelled.";
+"There are many copies." = "There are many copies.";
+"And they have a plan." = "And they have a plan.";
+"All of this has happened before." = "All of this has happened before.";
+"But it has not all happened to you." = "But it has not all happened to you.";
+"So say we all." = "So say we all.";
+"Frak off." = "Frak off.";
+"COLONIAL FLEET" = "COLONIAL FLEET";
+"Keep the CIC open" = "Keep the CIC open";
+"Keep the CIC visible" = "Keep the CIC visible";
+"Quit Galactica" = "Quit Galactica";
+"Unable to airlock %@" = "Unable to airlock %@";
+"Not without the Admiral's approval, sir." = "Not without the Admiral's approval, sir.";
+
+/* Derniers mots — affichés dans la langue du thème, prononcés dans celle de l’application */
+"GOOD BYE" = "GOOD BYE";
+"DECOMMISSIONED" = "DECOMMISSIONED";
+"TIME TO DIE" = "TIME TO DIE";
+"GAME OVER" = "GAME OVER";
+"GOODNIGHT, SAM." = "GOODNIGHT, SAM.";
+"WAKE UP, NEO." = "WAKE UP, NEO.";
+"ARK ONE, OUT." = "ARK ONE, OUT.";
+"SO SAY WE ALL." = "SO SAY WE ALL.";

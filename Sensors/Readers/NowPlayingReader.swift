@@ -211,7 +211,7 @@ public final class NowPlayingReader: @unchecked Sendable {
         playing.isPlaying = fields.count > 2 && fields[2] == "playing"
         playing.album = fields.count > 3 ? fields[3] : ""
         playing.year = fields.count > 4 ? Int(fields[4]) ?? 0 : 0
-        playing.duration = fields.count > 5 ? Double(fields[5]) ?? 0 : 0
+        playing.duration = fields.count > 5 ? Self.parseDouble(fields[5]) ?? 0 : 0
         guard artwork, FileManager.default.fileExists(atPath: path) else { return playing }
         playing.artworkData = Self.downscaled(path) ?? FileManager.default.contents(atPath: path)
         return playing
@@ -220,6 +220,13 @@ public final class NowPlayingReader: @unchecked Sendable {
     /// Le script d'interrogation, le nom du lecteur substitué.
     private static func script(for player: String) -> String {
         script.replacingOccurrences(of: "__APP__", with: player)
+    }
+
+    /// Convertit un nombre renvoyé par AppleScript : sa locale suit celle
+    /// du système, et la virgule décimale du français (`194,52`) ferait
+    /// échouer `Double(String)` silencieusement.
+    private static func parseDouble(_ text: String) -> Double? {
+        Double(text.replacingOccurrences(of: ",", with: "."))
     }
 
     /// Réduit la pochette à `artworkPixelSize` sur son plus grand côté.

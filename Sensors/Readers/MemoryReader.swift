@@ -33,9 +33,14 @@ public struct MemoryReader: Sendable {
             throw ReaderError.systemCallFailed(code: kernelStatus, function: "host_statistics64")
         }
 
-        // Page size standard sur macOS (4096 octets)
-        // Utilisation d'une constante car vm_page_size n'est pas thread-safe
-        let pageSize = 4096.0
+        // Taille de page du kernel : 4096 octets sur Intel, 16384 sur Apple Silicon.
+        // host_page_size() interroge le kernel directement, contrairement à vm_page_size.
+        var pageSizeNatural = vm_size_t(0)
+        let pageSizeStatus = host_page_size(mach_host_self(), &pageSizeNatural)
+        guard pageSizeStatus == KERN_SUCCESS else {
+            throw ReaderError.systemCallFailed(code: pageSizeStatus, function: "host_page_size")
+        }
+        let pageSize = Double(pageSizeNatural)
         let active = Double(stats.active_count) * pageSize
         let wired = Double(stats.wire_count) * pageSize
         let compressed = Double(stats.compressor_page_count) * pageSize
